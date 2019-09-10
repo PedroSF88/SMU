@@ -1,0 +1,5 @@
+('Election Results', '-------------------------', 'Total Votes 3521000', '-------------------------',           Percent of Votes  Vote Count
+Khan                %63.00     2218231
+Correy              %20.00      704200
+Li                  %14.00      492940
+O'Tooley             %3.00      105630, '-------------------------', 'Winner: Khan')

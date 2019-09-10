@@ -1,0 +1,19 @@
+finaldata=(['Total Months:':NumMonths, 
+'Total:':dftotalsum,
+'Average Change:':averagediff,
+'Greatest Increase in Profits:':maxdif,
+'Greatest Decrease in Profits':mindif])
+
+pd.options.display.float_format = '${:,.2f}'.format
+tm=('Total Months',NumMonths)
+tot=('Total',dftotalsum)
+ac=('Average Change',averagediff)
+gi=('Greatest Increase in Profits',maxdif)
+gd=('Greatest Decrease in Profits',mindif)
+
+{'Amt':[(NumMonths,dftotalsum, averagediff, maxdif,mindif)],
+'Financial Data':(['Total Months:', 'Total:', 'Average Change:','Greatest Increase in Profits:', 'Greatest Decrease in Profits']}
+
+format = lambda x: '${:,.2f}'$x
+df['e'].map(format)
+http://localhost:8888/edit/OneDrive/Desktop/SMU/SMU/Unit_03_Python/Instructions/PyPoll/Resources/election_data.csv
